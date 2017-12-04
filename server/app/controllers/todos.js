@@ -34,7 +34,7 @@ module.exports = function (app, config) {
     router.get('/todos/user/:userId', /*requireAuth,*/ function (req, res, next){
         logger.log('Get ToDos for a user', 'verbose');
 
-       var query = Todo.find({UserId:req.params.todoId})
+       var query = Todo.find({userId: req.params.userId})
        .sort(req.query.order)
        .exec()
        .then(result => {
@@ -49,7 +49,7 @@ module.exports = function (app, config) {
        });
    });
 
-    router.get('/todos/:todoId', requireAuth, function (req, res, next){
+ /*   router.get('/todos/:todoId', requireAuth, function (req, res, next){
         logger.log('Get user'+ req.params.todoId, 'verbose');
 
         Todo.findById(req.params.todoId)
@@ -64,6 +64,7 @@ module.exports = function (app, config) {
                        return next(error);
                    });
            });   
+*/
 
     router.post('/todos', function(req, res, next){
         logger.log('Create a ToDo', 'verbose');

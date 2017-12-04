@@ -9,6 +9,7 @@ export class List {
     this.router = router;
     this.todos = todos;
     this.auth = auth;
+    this.message = 'Goto Home';
     this.user = JSON.parse(sessionStorage.getItem('user'));
     this.priorities = ['Low', 'Medium', 'High', 'Critical'];
     this.showList = true;

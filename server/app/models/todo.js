@@ -10,11 +10,8 @@ priority:{type: String, enum:priorities},
 dateCreated:{type: Date, default: Date.now },
 datedue:{type: Date, default: Date.now},
 completed: {type:Boolean, default: false},
-file:{
-    fileName: {type: String},
-    originalName: {type: String},
-    dateUploaded: {type: Date, default: Date.now}
-},
-});
+file:{fileName: String, originalName: String, dateUploaded: Date}
+}
+);
 
 module.exports = Mongoose.model('todos', myTodoSchema);

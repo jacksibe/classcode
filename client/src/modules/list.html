@@ -1,5 +1,11 @@
 <template>
-		    <h1>${message}</h1>
+
+		<div class="topnav" id="myTopnav">
+				<a class="active" href="#home">${message}</a>
+		</div>
+
+		<center><h2>My Todo List!!</h2></center>
+		    
 		    <compose show.bind="showList" view="./components/todoList.html"></compose>
 		    <compose show.bind="!showList" view="./components/todoForm.html"></compose>
 		</template>
