@@ -1,26 +1,20 @@
 
 
-import {inject} from 'aurelia-framework';
+import {inject} from 'aurelia-framework'; 
 import {Router} from 'aurelia-router';
-import { Users } from '../resources/data/users';
-import {AuthService} from 'aurelia-auth';
-
-
+import { Users } from '../resources/data/users';   
+import {AuthService} from 'aurelia-auth';  
 
 @inject(Router, Users, AuthService)
 export class Home {
-  constructor(router,users, auth) {
-  this.router = router;
-  this.auth = auth;
-  this.loginError = '';
-  this.users = users;  
-  this.message = 'Home';
-  this.showLogin = true;
-  
-  }
 
-  login(){
-	  this.router.navigate('list');
+  constructor(router, users, auth) {
+    this.router = router;
+    this.auth = auth;
+    this.loginError = '';     
+    this.users = users;
+    this.message = 'Home';
+    this.showLogin = true;
   }
 
   showRegister(){
@@ -34,31 +28,28 @@ export class Home {
       
     this.showLogin = false;
   }
-  
-    async save() {
-    console.log(this.user);
-          let serverResponse = await this.users.save(this.user);
-          if (!serverResponse.error) {
-            this.showLogin = true;
-          } else {
-            this.registerError = "There was a problem registering the user."
-          }
+   async save() {
+   console.log (this.user);
+          let serverResponse = await this.users.save(this.user);
+          if (!serverResponse.error) {
+            this.showLogin = true;
+          } else {
+            this.registerError = "There was a problem registering the user."
+          }
     }
+        
 
-    login() {
-      return this.auth.login(this.email, this.password)
-        .then(response => {
-    sessionStorage.setItem("user", JSON.stringify(response.user));
-    this.loginError = "";
-    this.router.navigate('list');
-        })
-        .catch(error => {
-          console.log(error);
-          this.loginError = "Invalid credentials.";
-        });
-    };
-  
-    
-  
+  login(){
+    return this.auth.login(this.email, this.password)
+    .then(response => {
+      sessionStorage.setItem("user", JSON.stringify(response.user));
+      this.loginError = "";  
+      this.router.navigate('list');
+    })
+   .catch(error => {
+    console.log(error);
+    this.loginError = "Invalid credentials.";
+  });
+};
 
 }

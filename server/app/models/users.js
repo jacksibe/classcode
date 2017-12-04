@@ -1,24 +1,16 @@
 var Mongoose = require('mongoose');
 var Schema = Mongoose.Schema;
+var Bcrypt = require('bcryptjs');
 
-var userSchema = new Schema({
-
-    
-
-    firstName: { type: String, required: true }, 
-    lastName: { type: String, required: true }, 
-    Status: {type: Boolean, default: true}, 
-    email: {type: String, required: true, unique: true},
-    password: { type: String, required: true },
-    dateRegistered: {type: Date, default: Date.now },
-
-
-    
-      
-    
+var UserSchema = new Schema({
+ firstName:{type: String, required:true },
+ lastName:{type: String, required:true },
+ email:{type: String, required:true, unique:true },
+ password:{type: String, required:true },
+ dateregistered:{type: Date, default: Date.now},
+ Status: {type:Boolean, default: true}
 });
 
-var Bcrypt = require('bcryptjs');
 
 UserSchema.pre('save', function (next) {
     var person = this;
@@ -49,6 +41,4 @@ UserSchema.methods.comparePassword = function (passw, cb) {
     });
 };
 
-
-module.exports = 
- Mongoose.model('users', userSchema);
+module.exports = Mongoose.model('Users', UserSchema);

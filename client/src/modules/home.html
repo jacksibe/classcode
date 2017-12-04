@@ -1,5 +1,10 @@
 <template>
-	    <h1>${message}</h1>
+
+		<div class="topnav" id="myTopnav">
+				<a class="active" href="#home">${message}</a>
+		</div>
+
+	   
 	    <compose show.bind="showLogin" view="./components/login.html"></compose>
 	    <compose show.bind="!showLogin" view="./components/register.html"></compose>
 	</template>

@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "Client",
   "type": "project:application",
   "bundler": {
     "id": "cli",
@@ -83,23 +83,29 @@
             "name": "aurelia-fetch-client",
             "path": "../node_modules/aurelia-fetch-client/dist/amd",
             "main": "aurelia-fetch-client"
-          },
-
-          {
-            "name": "regenerator-runtime",
-            "path": "../node_modules/regenerator-runtime",
-            "main": "runtime-module"
-          },
-
-          { 
-            "name": "aurelia-auth",
-             "path": "../node_modules/aurelia-auth/dist/amd",
-             "main": "aurelia-auth"
-          },
-  
-            
-            
-          "text"
+            },
+            {
+              "name": "regenerator-runtime",
+              "path": "../node_modules/regenerator-runtime",
+              "main": "runtime-module"
+              },
+              { 
+                "name": "aurelia-auth",
+                 "path": "../node_modules/aurelia-auth/dist/amd",
+                 "main": "aurelia-auth"
+       },
+       "moment", 
+       {
+        "name": "flatpickr",
+        "path": "../node_modules/flatpickr/dist",
+        "main": "flatpickr",
+        "resources": [
+          "flatpickr.css",
+          "themes/dark.css",
+          "themes/material_blue.css"
+        ]
+      },
+      "text"
         ]
       }
     ],
@@ -171,5 +177,4 @@
     "displayName": "Jasmine"
   }
 
- 
 }
