@@ -1,0 +1,79 @@
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:02:16.437Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:02:16.438Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:02:43.281Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:02:43.282Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:05:13.126Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:05:13.127Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:05:15.189Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:05:15.189Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:05:31.016Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:05:31.474Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:05:31.475Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:05:42.477Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:05:42.477Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:06:38.495Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:06:38.495Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:06:41.136Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:06:41.137Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:06:45.947Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:06:45.948Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:06:47.983Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:06:47.984Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:08:14.190Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:08:14.191Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:08:47.807Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:08:48.247Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:08:48.247Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:11:32.060Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:11:32.060Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:14:11.839Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:32:33.092Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:32:33.092Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:35:32.297Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:35:32.298Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:35:50.121Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:35:50.122Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:36:35.424Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:36:35.424Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:38:13.485Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:38:13.486Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:38:13.717Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:38:13.718Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:43:34.764Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:43:34.765Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:43:56.908Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:43:56.908Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:44:24.302Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:44:24.303Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:45:01.909Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:45:01.910Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:45:58.655Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:45:58.656Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:46:14.011Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:46:14.012Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:46:20.755Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:46:20.756Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:46:44.444Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:46:44.445Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:47:11.750Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:47:11.750Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:49:04.349Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:49:04.349Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:49:29.149Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:49:29.150Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T00:49:53.618Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T00:49:53.619Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:12:40.782Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T01:12:40.782Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:12:51.309Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T01:12:51.309Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:13:10.677Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T01:13:10.677Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:13:44.184Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T01:13:44.184Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:14:07.921Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T01:14:07.922Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:14:55.019Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-05T01:14:55.019Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:14:59.114Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-05T01:15:01.263Z"}

@@ -1,4 +1,7 @@
 <template>
+
+        <center><h2>Add a Todo!!</h2></center>
+
         <div class ="container">
             <div class="card topMargin">
                 <div class="card-body">
@@ -22,7 +25,7 @@
                     A longer description if required.</small>
                 </div>
         
-        <div class="form-group">
+        <div class="col-lg-5">
                             <label for="priorityInput">Priority</label>
                             <select value.bind="todoObj.priority" class="form-control" 
                         id="exampleFormControlSelect2">
@@ -40,13 +43,14 @@
                                 </div>  
                 <div class="row">
                     <div class="col">
-                        <label class="btn btn-primary">
-                            Browse for files &hellip; <input type="file" 
+                        <label class="btn success">
+                            Browse &hellip; <input type="file" 
                             style="display: none;" 
                             change.delegate="changeFiles()" files.bind="files">
                             </label>
                             <small id="fileHelp" class="form-text text-muted">
-                            Upload any files that will be useful.</small>
+
+                            Upload files </small>
                             </div>	
                             <br>
                                     <div class="col-8">
@@ -58,7 +62,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <button click.trigger="saveTodo()" class="btn btn-primary topMargin">Save</button>
+                                <button click.trigger="saveTodo()" class="btn success topMargin">Save</button>
                             </form>
                     </div>
                     </template>
