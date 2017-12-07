@@ -42,6 +42,35 @@
 
     .textcolor {color: #b30606}
 
+/* Set all odd list items to a different color */
+    table thead:nth-child(odd) {
+        background: #4CAF50;
+    }
+    
+    .fa-trash:hover {
+        background-color: #f44336;
+        color: rgb(247, 239, 239);
+
+        
+    }
+
+    .fa-pencil:hover {
+        background-color: #4CAF50;
+        color: rgb(247, 239, 239);
+
+        
+    }
+
+    .form-check 
+
+    /* When clicked on, add a background color and strike out text */
+.fa fa-check {
+    background: #888;
+    
+}
+
+
+
 
 
     

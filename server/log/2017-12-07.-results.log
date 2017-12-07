@@ -1,0 +1,16 @@
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:00:01.903Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:00:02.458Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-07T02:00:02.458Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:00:26.903Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-07T02:00:26.904Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:00:26.991Z"}
+{"level":"verbose","message":"Upload file for todo 5a28a0ba764d854f99d87e58 and 5a25c49201d8563ffdfd42c3","timestamp":"2017-12-07T02:00:27.062Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:00:31.690Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a28a0ba764d854f99d87e58","timestamp":"2017-12-07T02:00:31.691Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:00:32.405Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a28a0ba764d854f99d87e58","timestamp":"2017-12-07T02:00:32.409Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:01:29.818Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T02:01:30.284Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-07T02:01:30.285Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-07T22:00:32.469Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-07T22:00:32.488Z"}
