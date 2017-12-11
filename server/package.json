@@ -14,7 +14,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.4",
-    "express": "^4.16.1",
+    "express": "^4.16.2",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodemon": "^0.5.4",
     "jshint-stylish": "^2.2.1",

@@ -6,7 +6,7 @@ var myTodoSchema = new Schema({
 userId:{type: Schema.Types.ObjectId, required:true },
 todo:{type: String, required:true },
 description:{type: String, required:true, unique:true },
-priority:{type: String, enum:priorities},
+priority:{type: String},
 dateCreated:{type: Date, default: Date.now },
 datedue:{type: Date, default: Date.now},
 completed: {type:Boolean, default: false},
